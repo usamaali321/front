@@ -1,0 +1,64 @@
+
+
+h1
+{
+    
+    font-family: fantasy;
+}
+.site-footer
+{
+  background-color:green;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:black;
+}
+
+.site-footer h6
+{
+  color:black;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:black
+}
+
+.footer-links.inline li
+{
+  display:inline-block
+}
+
+
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer 
+  {
+    text-align:center
+  }
+}
+
